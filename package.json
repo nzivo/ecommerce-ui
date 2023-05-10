@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "ecommerce-ui",
+  "version": "1.0.0",
+  "description": "A tailwind CSS project for the backend portal of an ecommerce site",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "build-tailwindcss": "tailwindcss build src/style.css -o public/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzivo/ecommerce-ui.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "admin",
+    "dashboard",
+    "tailwind",
+    "css",
+    "ui",
+    "ux",
+    "design",
+    "development",
+    "graphs"
+  ],
+  "author": "nzivo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nzivo/ecommerce-ui/issues"
+  },
+  "homepage": "https://github.com/nzivo/ecommerce-ui#readme"
+}
