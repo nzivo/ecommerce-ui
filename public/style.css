@@ -521,3 +521,118 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-luminousGreen {
+  --tw-text-opacity: 1;
+  color: rgb(47 228 141 / var(--tw-text-opacity));
+}
+
+.text-darkLuminousGreen {
+  --tw-text-opacity: 1;
+  color: rgb(37 182 112 / var(--tw-text-opacity));
+}
+
+body {
+  font-family: "Lufga", sans-serif;
+}
+
+.vendor-logo {
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.hover\:text-luminousGreen:hover {
+  --tw-text-opacity: 1;
+  color: rgb(47 228 141 / var(--tw-text-opacity));
+}
+
+.hover\:text-darkLuminousGreen:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 182 112 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}

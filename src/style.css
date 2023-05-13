@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/lufga");
+
+body {
+  font-family: "Lufga", sans-serif;
+}
+
+.vendor-logo {
+  font-weight: 800;
+  font-size: x-large;
+}
