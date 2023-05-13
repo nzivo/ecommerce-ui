@@ -11,3 +11,13 @@ body {
   font-weight: 800;
   font-size: x-large;
 }
+
+.stats-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.card-btn {
+  width: 2rem;
+  height: 2rem;
+}
